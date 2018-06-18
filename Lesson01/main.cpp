@@ -31,9 +31,19 @@ int main(int argc, char *args[])
         else
         {
             surface = SDL_GetWindowSurface(window);
-            SDL_FillRect(surface, NULL, SDL_MapRGB(surface->format, 0xFF, 0xFF, 0xFF));
+            SDL_FillRect(surface, NULL, SDL_MapRGB(surface->format, 255, 0, 0));
             SDL_UpdateWindowSurface(window);
-            SDL_Delay(5000);
+
+            // SDL_Delay() will not draw the window properly
+            bool loop = true;
+            while (loop) {
+                SDL_Event e;
+                while (SDL_PollEvent(&e)) {
+                    if (e.type == SDL_QUIT) {
+                        loop = false;
+                    }
+                }
+            }
         }
     }
 

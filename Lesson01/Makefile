@@ -1,5 +1,5 @@
-SRC = hello.cpp
-OBJ = hello
+SRC = main.cpp
+OBJ = main
 
 # compiler
 CC = g++
