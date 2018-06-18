@@ -7,3 +7,4 @@ This is source codes of SDL2 Tutorial of [Lazy Foo' Productions](http://lazyfoo.
 - [Lesson 01: Hello SDL](./Lesson01)
 - [Lesson 02: Getting an Image On The Screen](./Lesson02)
 - [Lesson 03: Event Driven Programming](./Lesson03)
+- [Lesson 04: Key Presses](./Lesson04)
