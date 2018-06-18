@@ -29,7 +29,7 @@ bool init() {
 }
 
 bool loadMedia() {
-    imgSurf = SDL_LoadBMP("./star.bmp");
+    imgSurf = SDL_LoadBMP("../img/star.bmp");
     if (imgSurf == NULL) {
         std::cerr << "Unable to load BMP image: " << SDL_GetError()
                   << std::endl;
