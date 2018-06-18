@@ -4,5 +4,5 @@ This is source codes of SDL2 Tutorial of [Lazy Foo' Productions](http://lazyfoo.
 
 ## Contents
 
-- [Lesson 00: Setting up SDL 2 on g++](./Lesson00)
 - [Lesson 01: Hello SDL](./Lesson01)
+- [Lesson 02: Getting an Image On The Screen](./Lesson02)
