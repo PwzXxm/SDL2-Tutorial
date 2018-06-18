@@ -37,8 +37,6 @@ bool init() {
 
     default_surf = SDL_GetWindowSurface(window);
 
-    SDL_UpdateWindowSurface(window);
-
     return true;
 }
 
