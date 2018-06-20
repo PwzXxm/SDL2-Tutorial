@@ -6,6 +6,7 @@
 !*.md
 !.gitignore
 !*.bmp
+!*.png
 !LICENSE
 
 !*/
