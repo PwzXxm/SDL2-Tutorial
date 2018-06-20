@@ -10,3 +10,4 @@ This is source codes of SDL2 Tutorial of [Lazy Foo' Productions](http://lazyfoo.
 - [Lesson 04: Key Presses](./Lesson04)
 - [Lesson 05: Optimized Surface Loading and Soft Stretching](./Lesson05)
 - [Lesson 06: Extension Libraries and Loading Other Image Formats](./Lesson06)
+- [Lesson 07: Texture Loading and Rendering](./Lesson07)
