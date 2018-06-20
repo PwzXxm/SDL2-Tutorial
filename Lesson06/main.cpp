@@ -38,7 +38,7 @@ bool init() {
     return true;
 }
 
-SDL_Surface* loadSurface(std::string path) {
+SDL_Surface *loadSurface(std::string path) {
     SDL_Surface *opt_surface = NULL;
     // load image
     SDL_Surface *load_surface = IMG_Load(path.c_str());
@@ -59,12 +59,13 @@ void close() {
     cur_surface = NULL;
     SDL_DestroyWindow(window);
     window = NULL;
+    IMG_Quit();
     SDL_Quit();
 }
 
-int main(int argc, char *argv[]) { 
+int main(int argc, char *argv[]) {
     if (!init()) {
-        std::cerr << "Initialization failed"  << std::endl;
+        std::cerr << "Initialization failed" << std::endl;
         return -1;
     }
 
