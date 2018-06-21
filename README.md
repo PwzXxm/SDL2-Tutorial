@@ -16,3 +16,4 @@ This is source codes of SDL2 Tutorial of [Lazy Foo' Productions](http://lazyfoo.
 - [Lesson 10: Color Keying](./Lesson10)
 - [Lesson 11: Clip Rendering and Sprite Sheets](./Lesson11)
 - [Lesson 12: Color Modulation](./Lesson12)
+- [Lesson 13: Alpha Blending](./Lesson13)
