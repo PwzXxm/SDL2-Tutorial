@@ -13,3 +13,4 @@ This is source codes of SDL2 Tutorial of [Lazy Foo' Productions](http://lazyfoo.
 - [Lesson 07: Texture Loading and Rendering](./Lesson07)
 - [Lesson 08: Geometry Rendering](./Lesson08)
 - [Lesson 09: The Viewport](./Lesson09)
+- [Lesson 10: Color Keying](./Lesson10)
